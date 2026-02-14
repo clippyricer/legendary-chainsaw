@@ -1,12 +1,11 @@
 # C++ projects
-This is where I host all of my c++ projects
-
+This is where I host all of my c++ projects.<br>
 Feel free to check them out!
 
 ### Legendary-Chainsaw explanation
-You might see that the title is "legendary-chainsaw"
-Github told me that short names a gud and suggested it
-I just wen't with it.
+You might see that the title is "legendary-chainsaw".<br>
+Github told me that short names a gud and suggested it.<br>
+I just wen't with it.<br>
 
 ### Dependencies
 
