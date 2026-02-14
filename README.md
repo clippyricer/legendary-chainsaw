@@ -25,6 +25,8 @@ sudo pacman -S base-devel cmake make gcc
 # Building
 <small>Windows and Macos build instructions will be added</small> 
 ## Linux
+After building the binarys will be located in:</br>
+```source-dir/build/bin```
 
 ### Build using cmake & make
 
