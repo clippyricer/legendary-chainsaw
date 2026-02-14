@@ -22,7 +22,10 @@ sudo pacman -S base-devel cmake make gcc
 ```
 
 
-## Building
+# Building
+<small>Windows and Macos build instructions will be added</small> 
+## Linux
+
 ### Build using cmake & make
 
 ```
