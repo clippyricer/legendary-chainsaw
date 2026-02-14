@@ -2,8 +2,9 @@
 # Build directory
 build/
 
-# git ignore
+# git
 .gitignore
+.git*
 
 # README.md
 *.md

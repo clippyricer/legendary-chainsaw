@@ -13,4 +13,4 @@ RUN cmake ..
 
 RUN make
 
-CMD ["./hello"]
+CMD ["./bin/hello"]
