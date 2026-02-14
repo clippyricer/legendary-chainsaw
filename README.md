@@ -3,6 +3,11 @@ This is where I host all of my c++ projects
 
 Feel free to check them out!
 
+### Legendary-Chainsaw explanation
+You might see that the title is "legendary-chainsaw"
+Github told me that short names a gud and suggested it
+I just wen't with it.
+
 ### Dependencies
 
 | Dependency  | Description |
