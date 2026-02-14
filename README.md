@@ -37,3 +37,11 @@ make
 cmake -G Ninja -B build/ && cd build
 make
 ```
+
+### Run using docker
+Its just basic docker usage
+
+```
+sudo docker build -t hello .
+docker run hello
+```
