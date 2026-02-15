@@ -32,7 +32,13 @@ After building the binarys will be located in:</br>
 ### Build using cmake & make
 First you must make the configure.sh script executable</br>
 and run the configure script `./configure`</br>
-Use TAB to select executables to build and ENTER to confirm
+| Keys | Action |
+| ---- | ------ |
+| TAB | Select/Deselect |
+| ENTER | Confirm |
+| ESC | Cancel |
+| CTRL+A | Select/Deselect ALL |
+
 
 ```
 cmake -C config.cmake -B build/ && cd build

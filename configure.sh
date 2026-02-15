@@ -4,7 +4,8 @@ EXECUTABLES=(
   "Hello World|BUILD_HELLO_WORLD|Build Hello World executable"
 )
 
-echo "Select executables (TAB to mark, ENTER to confirm)"
+echo "Select executables"
+echo "TAB = toggle one | CTRL-A = toggle all | ENTER = confirm"
 echo
 
 # Build display list
@@ -15,8 +16,11 @@ for entry in "${EXECUTABLES[@]}"; do
     DISPLAY_LIST+=("$name :: $description")
 done
 
-# Run fzf multi-select
-SELECTIONS=$(printf "%s\n" "${DISPLAY_LIST[@]}" | fzf --multi --prompt="Executables > ")
+# fzf with multi-select and Ctrl-A toggle all
+SELECTIONS=$(printf "%s\n" "${DISPLAY_LIST[@]}" | \
+    fzf --multi \
+        --bind "ctrl-a:toggle-all" \
+        --prompt="Executables > ")
 
 echo
 echo "Generating config.cmake..."
@@ -43,5 +47,5 @@ while IFS= read -r selected; do
 done <<< "$SELECTIONS"
 
 clear
-echo "Config file generated."
+echo "Config file succsesfully generated."
 
