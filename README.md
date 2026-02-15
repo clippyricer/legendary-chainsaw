@@ -12,6 +12,7 @@ I just wen't with it.<br>
 - [x] Fix Dockerfile
 - [ ] Add more distros to dep list
 - [ ] Add docs for WIN and MacOS install
+- [ ] Add support for installing programs
 - [ ] Write better code and more
 
 
