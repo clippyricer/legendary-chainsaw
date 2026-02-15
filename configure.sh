@@ -3,6 +3,7 @@
 EXECUTABLES=(
   "Hello World|BUILD_HELLO_WORLD|Hello World program"
   "Human To Dog Age|BUILD_DOG_AGE_CONVERT|Convert human years to dog years"
+  "Addition|BUILD_ADD|Simple addition calculator"
 )
 
 echo "Select programs"

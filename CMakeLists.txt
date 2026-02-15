@@ -22,7 +22,13 @@ if (BUILD_DOG_AGE_CONVERT)
 
 endif()
 
+if (BUILD_ADD)
+     add_executable(add src/addition/addition.cpp)
+
+endif()
+
 install(TARGETS hello DESTINATION ${CMAKE_INSTALL_PREFIX}/bin)
 install(TARGETS dog DESTINATION ${CMAKE_INSTALL_PREFIX}/bin)
+install(TARGETS add DESTINATION ${CMAKE_INSTALL_PREFIX}/bin)
 
 

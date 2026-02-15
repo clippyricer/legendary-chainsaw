@@ -15,6 +15,7 @@ I just wen't with it.<br>
 - [ ] Add docs for WIN and MacOS install
 - [ ] Add support for installing programs
 - [ ] Write better code and more
+- [ ] Expand calculator program
 
 
 ### Dependencies
