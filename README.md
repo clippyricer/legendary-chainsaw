@@ -9,17 +9,17 @@ I just wen't with it.<br>
 
 ### Dependencies
 
-| Dependency  | Description |
+| Dependency  | Usage in project |
 | ----------- | ----------- |
-| cmake | make makefile |
-| make | compile program |
+| cmake | makefile generator |
+| make | compile binarys |
 | gcc | compiler |
-| dialog | tool |
-| ninja(optional) | compile program |
+| fzf | tool for config |
+| ninja(optional) | compile binarys |
 
 **Arch**
 ```bash
-sudo pacman -S base-devel cmake make gcc
+sudo pacman -S base-devel cmake make gcc fzf
 ```
 
 
@@ -31,8 +31,8 @@ After building the binarys will be located in:</br>
 
 ### Build using cmake & make
 First you must make the configure.sh script executable</br>
-and run the configure script `./configure`
-
+and run the configure script `./configure`</br>
+Use TAB to select executables to build and ENTER to confirm
 
 ```
 cmake -C config.cmake -B build/ && cd build

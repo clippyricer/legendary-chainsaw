@@ -3,7 +3,7 @@
 FROM debian:latest
 
 RUN apt-get update && apt-get install -y \
-    build-essential cmake dialog
+    build-essential cmake dialog fzf
 
 COPY . /hello
 
