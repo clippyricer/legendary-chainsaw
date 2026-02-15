@@ -83,6 +83,6 @@ $ make
 Its just basic docker usage
 
 ```bash
-$ sudo docker build -t hello .
+$ docker build -t hello .
 $ docker run -it hello
 ```
