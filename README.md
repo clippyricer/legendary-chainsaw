@@ -10,6 +10,7 @@ I just wen't with it.<br>
 **TODO**
 - [x] Make config gen file
 - [x] Fix Dockerfile
+- [ ] Remove cmake warning
 - [ ] Add more distros to dep list
 - [ ] Add docs for WIN and MacOS install
 - [ ] Add support for installing programs
@@ -41,7 +42,8 @@ $ sudo apt install build-essential cmake fzf ninja-build
 <small>Windows and Macos build instructions will be added soon</small> 
 ## Linux
 After building the binaries will be located in:</br>
-`source-dir/build/bin`
+`source-dir/build/bin`</br>
+You can install them with `sudo make install`
 
 1. Clone the github repository
 ```bash
@@ -82,5 +84,5 @@ Its just basic docker usage
 
 ```bash
 $ sudo docker build -t hello .
-$ docker run hello
+$ docker run -it hello
 ```

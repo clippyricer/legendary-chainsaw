@@ -1,5 +1,6 @@
 #!/bin/bash
 # A file for running the executables in the docker container
+clear
 
 BIN_DIR="./bin"
 

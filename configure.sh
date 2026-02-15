@@ -2,6 +2,7 @@
 
 EXECUTABLES=(
   "Hello World|BUILD_HELLO_WORLD|Hello World program"
+  "Human To Dog Age|BUILD_DOG_AGE_CONVERT|Convert human years to dog years"
 )
 
 echo "Select programs"
@@ -31,7 +32,7 @@ echo "Generating config.cmake..."
 # First set all OFF
 for entry in "${EXECUTABLES[@]}"; do
     IFS="|" read -r name option description <<< "$entry"
-    echo "set($option ON CACHE BOOL \"\" FORCE)" >> config.cmake
+    echo "set($option OFF CACHE BOOL \"\" FORCE)" >> config.cmake
 done
 
 # Enable selected ones
