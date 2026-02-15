@@ -3,13 +3,13 @@
 FROM debian:latest
 
 RUN apt-get update && apt-get install -y \
-    build-essential cmake
+    build-essential cmake dialog
 
 COPY . /hello
 
 WORKDIR /hello/build
 
-RUN cmake ..
+RUN cmake -C ../config.cmake ..
 
 RUN make
 

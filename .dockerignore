@@ -8,3 +8,6 @@ build/
 
 # README.md
 *.md
+
+# my configuration
+config.cmake

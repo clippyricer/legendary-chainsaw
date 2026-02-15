@@ -6,8 +6,12 @@ set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/bin)
 
 project(hello)
 
-add_executable(hello
-  src/hello-world/hello.cxx
-)
+option(BUILD_HELLO_WORLD "Build Hello-World executable" ON)
+
+if(BUILD_HELLO_WORLD)
+    add_executable(hello
+      src/hello-world/hello.cxx
+    )
+endif()
 
 

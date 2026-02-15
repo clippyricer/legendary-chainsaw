@@ -14,6 +14,7 @@ I just wen't with it.<br>
 | cmake | make makefile |
 | make | compile program |
 | gcc | compiler |
+| dialog | tool |
 | ninja(optional) | compile program |
 
 **Arch**
@@ -26,23 +27,30 @@ sudo pacman -S base-devel cmake make gcc
 <small>Windows and Macos build instructions will be added</small> 
 ## Linux
 After building the binarys will be located in:</br>
-```source-dir/build/bin```
+`source-dir/build/bin`
 
 ### Build using cmake & make
+First you must make the configure.sh script executable</br>
+and run the configure script `./configure`
+
 
 ```
-cmake -B build/ && cd build
+cmake -C config.cmake -B build/ && cd build
 make
 ```
 
 ### Build using cmake & ninja
 
 ```
-cmake -G Ninja -B build/ && cd build
+cmake -C config.cmake -G Ninja -B build/ && cd build
 make
 ```
 
-### Run using docker
+### Using docker
+> [!WARNING]
+> THE DOCKER FILE IS CURRENTLY BROKEN!!!</br>
+> IT WILL NOT WORK
+
 Its just basic docker usage
 
 ```

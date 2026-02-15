@@ -1,3 +1,6 @@
 # Ignore my build directory
 
 build/
+
+# Ignore my configuration
+config.cmake
