@@ -10,7 +10,7 @@ I just wen't with it.<br>
 **TODO**
 - [x] Make config gen file
 - [x] Fix Dockerfile
-- [ ] Remove cmake warning
+- [x] Remove cmake warning
 - [ ] Add more distros to dep list
 - [ ] Add docs for WIN and MacOS install
 - [ ] Add support for installing programs
