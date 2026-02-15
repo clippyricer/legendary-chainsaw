@@ -37,7 +37,7 @@ sudo apt install build-essential cmake fzf ninja-build
 
 
 # Building
-<small>Windows and Macos build instructions will be added</small> 
+<small>Windows and Macos build instructions will be added soon</small> 
 ## Linux
 After building the binaries will be located in:</br>
 `source-dir/build/bin`
