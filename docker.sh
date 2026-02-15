@@ -29,6 +29,8 @@ fi
 echo
 echo "Running $SELECTED..."
 echo
+sleep 1
+clear
 
 exec "$BIN_DIR/$SELECTED"
 
