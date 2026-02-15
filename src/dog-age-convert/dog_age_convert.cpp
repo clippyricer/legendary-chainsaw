@@ -10,7 +10,7 @@ int main() {
 
 	cin >> humanAge;
 
-	double dogAge;
+	double dogAge{};
 
 	if (humanAge <= 1) {
         	dogAge = humanAge * 15;
@@ -20,8 +20,12 @@ int main() {
         	dogAge = 24 + (humanAge - 2) * 5;
 	    }
 	
-	
-	cout << "You are " << dogAge << " years old in dog age!\n";
+  if (dogAge >= 85) {
+    cout << "You are most likely dead in dog years.\nYou are " << dogAge << " years old in dog years" << endl;
+  } else {
+    cout << "You are " << dogAge << " years old in dog years\n";
+  }	
+
 	
 	return 0;
 }
