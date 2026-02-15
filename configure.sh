@@ -1,10 +1,10 @@
 #!/bin/bash
 
 EXECUTABLES=(
-  "Hello World|BUILD_HELLO_WORLD|Build Hello World executable"
+  "Hello World|BUILD_HELLO_WORLD|Hello World program"
 )
 
-echo "Select executables"
+echo "Select programs"
 echo "TAB = toggle one | CTRL-A = toggle all | ENTER = confirm"
 echo
 

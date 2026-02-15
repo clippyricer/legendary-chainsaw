@@ -29,9 +29,15 @@ sudo pacman -S base-devel cmake make gcc fzf
 After building the binarys will be located in:</br>
 `source-dir/build/bin`
 
-### Build using cmake & make
-First you must make the configure.sh script executable</br>
-and run the configure script `./configure`</br>
+1. Clone the github repository
+```
+git clone https://github.com/clippyricer/legendary-chainsaw.git legendaryCH
+cd legendaryCH
+```
+2. Build the programs
+
+First you must must select with programs to compile</br>
+Do that by running the configure script `./configure`</br>
 | Keys | Action |
 | ---- | ------ |
 | TAB | Select/Deselect |
@@ -39,7 +45,7 @@ and run the configure script `./configure`</br>
 | ESC | Cancel |
 | CTRL+A | Select/Deselect ALL |
 
-
+### Build using cmake & make
 ```
 cmake -C config.cmake -B build/ && cd build
 make
