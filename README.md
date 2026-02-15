@@ -28,12 +28,12 @@ I just wen't with it.<br>
 
 **Arch**
 ```bash
-sudo pacman -S base-devel cmake make gcc fzf ninja
+$ sudo pacman -S base-devel cmake make gcc fzf ninja
 ```
 
 **Debian/Ubuntu**
 ```bash
-sudo apt install build-essential cmake fzf ninja-build
+$ sudo apt install build-essential cmake fzf ninja-build
 ```
 
 
@@ -44,9 +44,9 @@ After building the binaries will be located in:</br>
 `source-dir/build/bin`
 
 1. Clone the github repository
-```
-git clone https://github.com/clippyricer/legendary-chainsaw.git
-cd legendary-chainsaw
+```bash
+$ git clone https://github.com/clippyricer/legendary-chainsaw.git
+$ cd legendary-chainsaw
 ```
 2. Build the programs
 
@@ -60,16 +60,16 @@ Do that by running the configure script `./configure`</br>
 | CTRL+A | Select/Deselect ALL |
 
 ### Build using cmake & make
-```
-cmake -C config.cmake -B build/ && cd build
-make
+```bash
+$ cmake -C config.cmake -B build/ && cd build
+$ make
 ```
 
 ### Build using cmake & ninja
 
-```
-cmake -C config.cmake -G Ninja -B build/ && cd build
-make
+```bash
+$ cmake -C config.cmake -G Ninja -B build/ && cd build
+$ make
 ```
 
 ### Using docker
@@ -79,7 +79,7 @@ make
 
 Its just basic docker usage
 
-```
-sudo docker build -t hello .
-docker run hello
+```bash
+$ sudo docker build -t hello .
+$ docker run hello
 ```
