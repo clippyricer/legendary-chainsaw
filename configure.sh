@@ -1,7 +1,7 @@
 #/bin/bash
 
 EXECUTABLES=(
-  "hello|BUILD_HELLO_WORLD|Build Hello World executable"
+  "Hello World|BUILD_HELLO_WORLD|Build Hello World executable"
 )
 
 
