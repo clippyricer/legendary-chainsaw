@@ -15,4 +15,6 @@ RUN cmake -C ../config.cmake ..
 
 RUN make
 
-CMD ["./bin/hello"]
+ENTRYPOINT ["bash", "/hello/docker.sh"]
+
+# CMD ["./bin/hello"]

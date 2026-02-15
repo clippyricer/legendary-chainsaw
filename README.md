@@ -76,6 +76,7 @@ $ make
 > [!IMPORTANT]
 > As of now you still need to run the configuration file manually</br>
 > Or building the docker image WILL fail
+> Also make sure that `docker.sh` is executable
 
 Its just basic docker usage
 
