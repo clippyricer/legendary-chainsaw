@@ -3,11 +3,13 @@
 FROM debian:latest
 
 RUN apt-get update && apt-get install -y \
-    build-essential cmake dialog fzf
+    build-essential cmake dialog fzf ninja-build
 
 COPY . /hello
 
 WORKDIR /hello/build
+
+# RUN chmod a+x ../configure.sh && ../configure.sh
 
 RUN cmake -C ../config.cmake ..
 

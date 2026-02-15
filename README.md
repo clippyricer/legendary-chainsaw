@@ -7,6 +7,14 @@ You might see that the title is "legendary-chainsaw".<br>
 Github told me that short names a gud and suggested it.<br>
 I just wen't with it.<br>
 
+**TODO**
+- [x] Make config gen file
+- [x] Fix Dockerfile
+- [ ] Add more distros to dep list
+- [ ] Add docs for WIN and MacOS install
+- [ ] Write better code and more
+
+
 ### Dependencies
 
 | Dependency  | Usage in project |
@@ -19,20 +27,25 @@ I just wen't with it.<br>
 
 **Arch**
 ```bash
-sudo pacman -S base-devel cmake make gcc fzf
+sudo pacman -S base-devel cmake make gcc fzf ninja
+```
+
+**Debian/Ubuntu**
+```bash
+sudo apt install build-essential cmake fzf ninja-build
 ```
 
 
 # Building
 <small>Windows and Macos build instructions will be added</small> 
 ## Linux
-After building the binarys will be located in:</br>
+After building the binaries will be located in:</br>
 `source-dir/build/bin`
 
 1. Clone the github repository
 ```
-git clone https://github.com/clippyricer/legendary-chainsaw.git legendaryCH
-cd legendaryCH
+git clone https://github.com/clippyricer/legendary-chainsaw.git
+cd legendary-chainsaw
 ```
 2. Build the programs
 
@@ -59,9 +72,9 @@ make
 ```
 
 ### Using docker
-> [!WARNING]
-> THE DOCKER FILE IS CURRENTLY BROKEN!!!</br>
-> IT WILL NOT WORK
+> [!IMPORTANT]
+> As of now you still need to run the configuration file manually</br>
+> Or building the docker image WILL fail
 
 Its just basic docker usage
 
