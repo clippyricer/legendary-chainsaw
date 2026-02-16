@@ -26,16 +26,17 @@ I just wen't with it.<br>
 | make | compile binarys |
 | gcc | compiler |
 | fzf | tool for config |
+| git | cloning repo |
 | ninja(optional) | compile binarys |
 
 **Arch**
 ```bash
-$ sudo pacman -S base-devel cmake make gcc fzf ninja
+$ sudo pacman -S base-devel git cmake make gcc fzf ninja
 ```
 
 **Debian/Ubuntu**
 ```bash
-$ sudo apt install build-essential cmake fzf ninja-build
+$ sudo apt install build-essential git cmake fzf ninja-build
 ```
 
 
