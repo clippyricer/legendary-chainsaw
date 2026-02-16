@@ -65,14 +65,14 @@ Do that by running the configure script `./configure`</br>
 
 ### Build using cmake & make
 ```bash
-$ cmake -C config.cmake -B build/ && cd build
+$ cmake -B build/ && cd build
 $ make
 ```
 
 ### Build using cmake & ninja
 
 ```bash
-$ cmake -C config.cmake -G Ninja -B build/ && cd build
+$ cmake -G Ninja -B build/ && cd build
 $ make
 ```
 
