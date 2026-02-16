@@ -21,7 +21,7 @@ int main() {
 
 
     if (dogAge >= 85) {
-        cout << "You are most likely dead in dog years.\nYou are " << dogAge << " years old in dog years" << endl;
+        cout << "You are most likely dead in dog years.\nYou are " << dogAge << " years old in dog years" << '\n';
     } else {
         cout << "You are " << dogAge << " years old in dog years\n";
     }
