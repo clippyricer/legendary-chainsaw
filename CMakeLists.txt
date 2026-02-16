@@ -18,7 +18,7 @@ if(BUILD_HELLO_WORLD)
 endif()
 
 if (BUILD_DOG_AGE_CONVERT)
-     add_executable(dog src/dog-age-convert/dog_age_convert.cpp)
+     add_executable(dog src/dog-age/dog_age_convert.cpp)
 
 endif()
 
