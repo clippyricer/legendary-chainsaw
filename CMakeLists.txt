@@ -8,23 +8,20 @@ set(CMAKE_INSTALL_PREFIX "/usr/local" CACHE PATH "install prefix" FORCE)
 
 project(programs)
 
-option(BUILD_HELLO_WORLD "Build Hello-World executable" ON)
-option(BUILD_DOG_AGE_CONVERT "Build Dog-age-convert executable" ON) 
-
 if (BUILD_HELLO_WORLD)
-    add_executable(hello src/hello-world/hello.cpp)
+    add_executable(hello src/hello-world/main.cpp)
     install(TARGETS hello DESTINATION ${CMAKE_INSTALL_PREFIX}/bin)
 
 endif()
 
 if (BUILD_DOG_AGE_CONVERT)
-    add_executable(dog src/dog-age/dog_age_convert.cpp)
+    add_executable(dog src/dog-age/main.cpp)
     install(TARGETS dog DESTINATION ${CMAKE_INSTALL_PREFIX}/bin)
 
 endif()
 
 if (BUILD_ADD)
-    add_executable(add src/addition/addition.cpp)
+    add_executable(add src/addition/main.cpp)
     install(TARGETS add DESTINATION ${CMAKE_INSTALL_PREFIX}/bin)
 
 endif()

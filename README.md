@@ -22,16 +22,16 @@ I just wen't with it.<br>
 | Dependency  | Usage in project |
 | ----------- | ----------- |
 | cmake | makefile generator |
-| make | compile binarys |
+| make | compile binaries |
 | gcc | compiler |
 | fzf | tool for config |
 | git | cloning repo |
-| docker(optional) | run using docker |
-| ninja(optional) | compile binarys |
+| docker | run using docker |
+| ninja | compile binaries |
 
 **Arch**
 ```bash
-$ sudo pacman -S base-devel git cmake make gcc fzf ninja
+$ sudo pacman -S base-devel docker git cmake make gcc fzf ninja
 ```
 
 **Debian/Ubuntu**
