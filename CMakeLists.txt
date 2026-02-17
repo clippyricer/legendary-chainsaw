@@ -5,6 +5,7 @@ cmake_minimum_required(VERSION 3.30)
 include(${CMAKE_SOURCE_DIR}/config.cmake)
 set(CMAKE_RUNTIME_OUTPUT_DIRECTORY "${CMAKE_BINARY_DIR}/bin")
 set(CMAKE_INSTALL_PREFIX "/usr/local" CACHE PATH "install prefix" FORCE)
+set(CMAKE_BUILD_TYPE Release CACHE STRING "Build type" FORCE)
 
 project(programs)
 
@@ -26,6 +27,4 @@ if (BUILD_ADD)
 
 endif()
 
-
-
-
+message("Build type used: " ${CMAKE_BUILD_TYPE})
