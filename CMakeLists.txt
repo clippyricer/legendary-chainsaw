@@ -10,8 +10,8 @@ set(CMAKE_BUILD_TYPE Release CACHE STRING "Build type" FORCE)
 project(programs)
 
 if (BUILD_HELLO_WORLD)
-    set(SOURCES src/hello-world/main.cpp src/hello-world/hi.cpp include/hi.h)
-    add_executable(hello ${SOURCES})
+    set(HELLO_SOURCES src/hello-world/main.cpp src/hello-world/hi.cpp include/hi.h)
+    add_executable(hello ${HELLO_SOURCES})
     target_include_directories(hello PRIVATE include)
     install(TARGETS hello DESTINATION ${CMAKE_INSTALL_PREFIX}/bin)
 
