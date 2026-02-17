@@ -11,7 +11,7 @@ WORKDIR /hello/build
 
 # RUN chmod a+x ../configure.sh && ../configure.sh
 
-RUN cmake -C ../config.cmake ..
+RUN cmake ..
 
 RUN make
 
