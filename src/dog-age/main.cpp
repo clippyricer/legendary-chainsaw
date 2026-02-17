@@ -1,14 +1,12 @@
 #include <iostream>
 
-using namespace std;
-
 double humanAge{};
 double dogAge{};
 
 int main() {
-	cout << "Enter your age(years): ";
+    std::cout << "Enter your age(years): ";
 	
-    cin >> humanAge;
+    std::cin >> humanAge;
         
 
     if (humanAge <= 1) {
@@ -21,9 +19,9 @@ int main() {
 
 
     if (dogAge >= 85) {
-        cout << "You are most likely dead in dog years.\nYou are " << dogAge << " years old in dog years" << '\n';
+        std::cout << "You are most likely dead in dog years.\nYou are " << dogAge << " years old in dog years" << '\n';
     } else {
-        cout << "You are " << dogAge << " years old in dog years\n";
+        std::cout << "You are " << dogAge << " years old in dog years\n";
     }
 
 
