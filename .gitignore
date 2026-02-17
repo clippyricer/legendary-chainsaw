@@ -4,3 +4,5 @@ build/
 
 # Ignore my configuration
 config.cmake
+
+meson.build
