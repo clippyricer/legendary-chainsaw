@@ -13,8 +13,7 @@ I just wen't with it.<br>
 - [x] Remove cmake warning
 - [ ] Add more distros to dep list
 - [ ] Add docs for WIN and MacOS install
-- [ ] Add support for installing programs
-- [ ] Write better code and more
+- [x] Add support for installing programs
 - [ ] Expand calculator program
 
 
@@ -27,6 +26,7 @@ I just wen't with it.<br>
 | gcc | compiler |
 | fzf | tool for config |
 | git | cloning repo |
+| docker(optional) | run using docker |
 | ninja(optional) | compile binarys |
 
 **Arch**
