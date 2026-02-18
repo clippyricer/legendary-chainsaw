@@ -1,7 +1,7 @@
 # src/meson.build
 
 
-if get_option('BUILD_HELLO_WORLD')
+if get_option('build_hell_world')
   executable('hello',
             ['hello-world/main.cpp','hello-world/hi.cpp'],
             include_directories: incdir,
@@ -10,16 +10,16 @@ if get_option('BUILD_HELLO_WORLD')
 endif()
 
 
-if get_option('BUILD_DOG_AGE')
+if get_option('build_dog_age')
   executable('dog', 'dog-age/main.cpp', install: true)
 endif()
 
 
-if get_option('BUILD_ADD')
+if get_option('build_add')
   executable('add', 'addition/main.cpp', install: true)
 endif()
 
 
-if get_option('BUILD_VAR')
+if get_option('build_var')
   executable('var', 'variable/main.cpp', install: true)
 endif()
