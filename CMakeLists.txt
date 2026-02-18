@@ -29,4 +29,10 @@ if (BUILD_ADD)
 
 endif()
 
+if (BUILD_VAR)
+    add_executable(var src/variable/main.cpp)
+    install(TARGETS var DESTINATION ${CMAKE_INSTALL_PREFIX}/bin)
+
+endif()
+
 message("Build type used: " ${CMAKE_BUILD_TYPE})
