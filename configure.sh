@@ -11,7 +11,7 @@ EXECUTABLES=(
   "Hello World|BUILD_HELLO_WORLD|Hello World program"
   "Human To Dog Age|BUILD_DOG_AGE|Convert human years to dog years"
   "Addition|BUILD_ADD|Simple addition calculator"
-  "Variable|BUILD_VAR|Print 0 without the number 0"
+  "Variable|BUILD_VAR|Print A uninitlized variable"
 )
 
 # --- 2. Initialization ---
