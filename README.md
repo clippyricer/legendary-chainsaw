@@ -32,12 +32,12 @@ I just wen't with it.<br>
 
 **Arch**
 ```bash
-$ sudo pacman -S base-devel docker git cmake make gcc fzf ninja
+$ sudo pacman -S base-devel meson docker git cmake make gcc fzf ninja
 ```
 
 **Debian/Ubuntu**
 ```bash
-$ sudo apt install build-essential git cmake fzf ninja-build
+$ sudo apt install build-essential meson git cmake fzf ninja-build
 ```
 
 
