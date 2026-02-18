@@ -3,5 +3,5 @@
 build/
 
 # Ignore my configuration
-config.cmake
+config/
 .cache
