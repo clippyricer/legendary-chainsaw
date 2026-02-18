@@ -2,8 +2,8 @@
 
 FROM archlinux:latest
 
-RUN pacman -Syu && pacman -S \
-    base-devel cmake make meson fzf ninja gcc
+RUN pacman -Syu --noconfirm && pacman -S \
+    base-devel cmake make meson fzf ninja gcc --noconfirm
 
 COPY . /hello
 
