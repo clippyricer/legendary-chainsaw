@@ -53,7 +53,7 @@ You can install them with `sudo make install`
 $ git clone https://github.com/clippyricer/legendary-chainsaw.git
 $ cd legendary-chainsaw
 ```
-2. Build the programs
+2. Actually build it
 
 First you must must select with programs to compile</br>
 Do that by running the configure script `./configure`</br>
