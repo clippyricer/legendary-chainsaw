@@ -17,7 +17,7 @@ if (BUILD_HELLO_WORLD)
 
 endif()
 
-if (BUILD_DOG_AGE_CONVERT)
+if (BUILD_DOG_AGE)
     add_executable(dog src/dog-age/main.cpp)
     install(TARGETS dog DESTINATION ${CMAKE_INSTALL_PREFIX}/bin)
 
