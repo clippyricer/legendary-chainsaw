@@ -22,6 +22,9 @@ jobs:
     steps:
     - uses: actions/checkout@v4
 
+    - name: Pre
+      run: mkdir ${{github.workspace}}/config && echo 'set(BUILD_HELLO_WORLD ON CACHE BOOL "" FORCE)' >> ${{github.workspace}}/config/config.cmake && echo 'set(BUILD_DOG_AGE ON CACHE BOOL "" FORCE)' >> ${{github.workspace}}/config/config.cmake && echo 'set(BUILD_ADD ON CACHE BOOL "" FORCE)' >> ${{github.workspace}}/config/config.cmake && echo 'set(BUILD_VAR ON CACHE BOOL "" FORCE)' >> ${{github.workspace}}/config/config.cmake
+
     - name: Configure CMake
       # Configure CMake in a 'build' subdirectory. `CMAKE_BUILD_TYPE` is only required if you are using a single-configuration generator such as make.
       # See https://cmake.org/cmake/help/latest/variable/CMAKE_BUILD_TYPE.html?highlight=cmake_build_type
