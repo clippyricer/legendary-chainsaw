@@ -4,3 +4,6 @@ build/
 
 # Ignore my configuration
 config.cmake
+
+# Meson documentation is not good enough
+meson.build
