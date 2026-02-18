@@ -4,4 +4,7 @@ build/
 
 # Ignore my configuration
 config/
+meson.options
+
+# Random cache
 .cache
