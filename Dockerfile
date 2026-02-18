@@ -1,9 +1,9 @@
 # lolllll i use arch btw
 
-FROM debian:latest
+FROM archlinux:latest
 
-RUN apt-get update && apt-get install -y \
-    build-essential cmake dialog fzf ninja-build
+RUN sudo pacman -Syu && sudo pacman -S \
+    base-devel cmake make meson fzf ninja gcc
 
 COPY . /hello
 
