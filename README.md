@@ -86,7 +86,6 @@ $ ninja
 > Or building the docker image WILL fail
 > Also make sure that `docker.sh` is executable
 
-Its just basic docker usage
 
 ```bash
 $ docker build -t hello .
