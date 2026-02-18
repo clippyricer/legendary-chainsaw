@@ -11,6 +11,7 @@ I just wen't with it.<br>
 - [x] Make config gen file
 - [x] Fix Dockerfile
 - [x] Remove cmake warning
+- [x] Add support for meson
 - [ ] Add more distros to dep list
 - [ ] Add docs for WIN and MacOS install
 - [x] Add support for installing programs
