@@ -2,7 +2,7 @@
 
 FROM archlinux:latest
 
-RUN sudo pacman -Syu && sudo pacman -S \
+RUN pacman -Syu && pacman -S \
     base-devel cmake make meson fzf ninja gcc
 
 COPY . /hello
