@@ -1,4 +1,5 @@
 # Ignore useless stuff for docker
+
 # Build directory
 build/
 
@@ -8,3 +9,11 @@ build/
 
 # README.md
 *.md
+
+# Meson
+meson.build
+meson.options
+config/meson.options
+
+# configure.sh
+configure.sh
